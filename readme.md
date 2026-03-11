@@ -1,3 +1,31 @@
+## How we can read input in cpp
+
+```c++
+
+#include<iostream>
+#include<string>
+#include<sstream>
+
+using namespace std;
+
+
+int main(){
+    string str;
+    getline(cin,str);
+    str= str.substr(1,str.size()-2);
+    stringstream ss(str);
+    string word;
+       
+   while(getline(ss, word, ',')){
+    cout<<stoi(word)<<" ";
+   }
+      
+    return 0;
+
+}
+```
+
+
 ## 1. Check if a given string is palindrome or not
 
 ## 2. Count number of vowels, consonants, spaces in String 

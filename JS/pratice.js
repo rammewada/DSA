@@ -545,3 +545,10 @@ What Is a Monorepo?
 A single Git repository that contains multiple projects or packages.
 
 */
+
+
+
+let x;
+prompt("Type something : ",x)
+
+console.log(x);

@@ -20,8 +20,9 @@ int BinaryToDecimal(int num){
 }
 
 
-int main () {
 
+int main () {
+    
     int number;
     cin>>number;
     cout<<BinaryToDecimal(number);
