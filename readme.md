@@ -309,3 +309,16 @@ Change case of each character in a string
 Concatenate one string to another
 Write a program to find a substring within a string. If found display its starting position
 Reverse words in a string
+
+
+
+
+///Sliding window Problem - 
+3️⃣ Longest Substring Without Repeating Characters (Medium)
+4️⃣ Longest Substring with K Distinct Characters (Medium)
+5️⃣ Maximum Number of Vowels in Substring of Size K (Medium)
+6️⃣ Permutation in String (Medium)
+7️⃣ Find All Anagrams in a String (Medium)
+8️⃣ Longest Repeating Character Replacement (Hard)
+9️⃣ Minimum Window Substring (Hard)
+🔟 Sliding Window Maximum (Hard)
