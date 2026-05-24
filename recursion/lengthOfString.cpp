@@ -7,7 +7,7 @@ int length(char input[]){
       return 1+length(input+1);
 } 
 
-void removeX(char input[]){
+void removeX(char input[]){ 
 if(input[0]=='\0') return;
 
 if(input[0]!='x') return removeX(input+1);
